@@ -1,6 +1,6 @@
 class Solution {
 public:
-    // dns Sort (Dutch National Flag)
+    // counting sort
     void sortColors(vector<int>& nums) { 
         int count0 = 0 , count1 = 0 , count2 = 0; 
       // traverse the array to keep count of number of 0 , 1 and 2.
